@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 .imagens img{
     width:100%;
     height:300px;
@@ -28,4 +35,15 @@
 
 .sociais{
     padding:20px;
+}
+
+/** roupas**/
+.central img{
+    margin-top: 10%;
+    width: 350px;
+    height:350px;
+}
+.carnibol img{
+    width: 350px;
+    height: 450px;
 }
