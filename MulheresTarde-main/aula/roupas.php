@@ -50,7 +50,7 @@ require_once 'menu.php';
   <div class="card-body">
     <h5 class="card-title">Conjunto Marrie</h5>
     <p class="card-text">Valor: R$120,00</p>
-    <a href="#" class="btn btn-primary">Adicinar ao carrinhoe</a>
+    <a href="#" class="btn btn-primary">Adicinar ao carrinho</a>
   </div>
 </div>
 </div>
