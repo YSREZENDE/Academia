@@ -1,9 +1,9 @@
-<div class="container-fluid">
+<div class="container-fluid footer">
       <div class="row text-center bg-light">
         <div class="col-md-3">
           <h4>Institucional</h4>
-          <p><a href="#">Home</a></p>
-          <p><a href="#">Nossa Academia</a></p>
+          <p><a href="index.php">Home</a></p>
+          <p><a href="nssacademia.php">Nossa Academia</a></p>
           <p><a href="#">Conheça os Planos</a></p>
           <p><a href="#">Área do Cliente</a></p>
         </div>

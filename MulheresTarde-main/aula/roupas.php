@@ -7,35 +7,67 @@ require_once 'menu.php';
 
     <h1>Roupas</h1>
 
- <div class="container-fluid">
-      <div class="row">
-          <div class="col-md-12 text-center central">
-              <img src="imagens\beautiful-young-woman-in-sport-standing-stretch-muscle-leg-exercise-with-healthy-isolated-on-white-wall.jpg" class="img-fluid">
-          </div>
+ 
 
-      </div>
-  </div>
   <div class="container-fluid texto">
     <div class="row">
       <div class="col-md-12 text-center">
-        <h2>Nova coleção</h2>
+        <h2>Nova coleção 2023</h2>
       </div>
     </div>
   </div>
-  <div class="container-fluid imagens">
+
+<!--card img-->
+ <div class="container-fluid texto">
     <div class="row">
-        <div class="col-md-4">
-            <img src="imagens\young-woman-exercising-fitness.jpg" class="img-fluid">
+         <div class="col-md-3 text-center">
+            <div class="card" style="width: 18rem;">
+                <img src="imagens\young-woman-exercising-fitness.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Conjunto clara</h5>
+                    <p class="card-text">Valor: R$120,00</p>
+                    <a href="#" class="btn btn-primary">Adicinar ao carrinho</a>
+                </div>
+            </div>
         </div>
+        <!--end img-->
+<!--card img-->
+ <div class="col-md-3 text-center">
+        <div class="card" style="width: 18rem;">
+  <img src="imagens\young-fitness-sportive-woman-posing-smiling-holding-jumping-rope-on-white.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Conjunto Mirella</h5>
+    <p class="card-text">Valor: R$120,00</p>
+    <a href="#" class="btn btn-primary">Adicinar ao carrinho</a>
+  </div>
+</div>
+</div>
+<!--card img-->
+ <div class="col-md-3 text-center">
+   
+    <div class="card" style="width: 18rem;">
+  <img src=" imagens\beautiful-young-woman-in-sport-standing-stretch-muscle-leg-exercise-with-healthy-isolated-on-white-wall.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Conjunto Marrie</h5>
+    <p class="card-text">Valor: R$120,00</p>
+    <a href="#" class="btn btn-primary">Adicinar ao carrinhoe</a>
+  </div>
+</div>
+</div>
+<!--end img-->
 
-        <div class="col-md-4">
-            <img src="imagens\young-fitness-sportive-woman-posing-smiling-holding-jumping-rope-on-white.jpg" class="img-fluid">
-        </div>
-
-        <div class="col-md-4">
-            <img src="imagens\beautiful-young-woman-in-sport-standing-stretch-muscle-leg-exercise-with-healthy-isolated-on-white-wall.jpg" class="img-fluid">
-        </div>
-
+<!--card img-->
+<div class="col-md-3 text-center">
+        <div class="card" style="width: 18rem;">
+  <img src="imagens\beautiful-young-woman-in-sport-standing-stretch-muscle-leg-exercise-with-healthy-isolated-on-white-wall.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Conjunto Baby</h5>
+    <p class="card-text">Valor: R$120,00</p>
+    <a href="#" class="btn btn-primary">Adicinar ao carrinho</a>
+  </div>
+</div>
+</div>
+<!--end img-->
     </div>
 </div>
 
@@ -47,38 +79,3 @@ require_once 'footer.php'
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- JavaScript (Opcional) -->
-    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
-</html>

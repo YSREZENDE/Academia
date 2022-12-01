@@ -43,7 +43,44 @@
     width: 350px;
     height:350px;
 }
+/**suplementos**/
 .carnibol img{
     width: 350px;
     height: 450px;
 }
+
+/**spinning**/
+
+.text-spnning{
+    text-align: center;
+}
+.text-spinning{
+    font-size: 100%;
+    margin-top: 3%;
+
+}
+
+.img-spinning{
+    max-width: 1080px;
+    width: 100%;
+    height: auto;
+}
+/**jumpp**/
+
+.img-jumpp{
+    max-width: 1080px;
+width: 100%;
+height: auto;
+}
+
+
+
+
+
+/**footer**/
+.footer{
+    padding: 5%;
+}
+
+
+  
