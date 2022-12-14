@@ -105,15 +105,15 @@ insert into endereco(cep,rua,bairro,cidade,uf)VALUES
 ('23085-610','Rua Padre Pauwels','Campo Grande','Rio de Janeiro','RJ'),
 ('26551-090','Travessa Elpidio','Cruzeiro do Sul','Mesquita','RJ');
 
-
-insert into aluno(nome,telefone,rg,cpf,datanascimento,cep,numerocasa,complemento,foto)VALUES
-('Maria','(21)99886-1055','12555','123456893-10','2001-08-01','23085-610',31,'ap 102','vazio'),
-('Pedro','(21)99999-1055','00012','123456789-10','1997-10-20','26551-090',100,'fundos','vazio');
+1
+insert into aluno(nome,telefone,rg,cpf,datanascimento,cep,numerocasa,complemento,foto,sexo)VALUES
+('Maria','(21)99886-1055','12555','123456893-10','2001-08-01','23085-610',31,'ap 102','feminino','vazio'),
+('Pedro','(21)99999-1055','00012','123456789-10','1997-10-20','26551-090',100,'fundos','masculino','vazio');
 	
-insert into funcionario(cpffuncionario,nome,telefone,rg,cep,numerocasa,complemento,foto)VALUES
-('123','Mário Silva','(21)9999-8888','0001','23085-610',40,'ap 202','vazio'),
-('456','Gabriel Silva','(21)9999-7777','0002','26551-090',100,'casa','vazio'),
-('789','Mariana Souza','(21)9999-5555','1234','23085-610',1820,'casa','vazio');
+insert into funcionario(cpffuncionario,nome,telefone,rg,cep,numerocasa,complemento,foto,sexo)VALUES
+('123','Mário Silva','(21)9999-8888','0001','23085-610',40,'ap 202','masculino','vazio'),
+('456','Gabriel Silva','(21)9999-7777','0002','26551-090',100,'casa','masculino','vazio'),
+('789','Mariana Souza','(21)9999-5555','1234','23085-610',1820,'casa','feminino','vazio');
 
 insert into professor(disponibilidade,cpffuncionario)VALUES
 ('segunda e sexta dia todo','123'),
@@ -268,7 +268,27 @@ and a.dataaula between '2022-12-01' and '2022-12-31';
 
 /*Nomeando pesquisas / colunas */
 
+20)pesquisando nome e telefone de todos os personais que tiverem aula no dia 10/12/2022
+select f.nome,f.telefone
+from  funcionario f inner join professor
+on cpffuncionario = cpffuncionario
+inner join idatividade
 
+and dataaula in ('10/12/2022');
+
+21)pesquisar nome e telefone de todos os professores que podem dar aulas de spinning
+select f.nome,f.telefone, ati.nomeatividade, idatividade
+from atividade ati inner join aula a
+on ati.atividade = f.atividade;
+
+22)mostrar ototal de vendas do dia 05/12/22
+
+
+
+select ati.nomeatividade,a.dataaula,a.horario
+from atividade ati inner join aula a
+on ati.idatividade=ati.idatividade
+and a.dataaula in '2022-12-11'
 
                 }
             }
